@@ -1,0 +1,63 @@
+{
+  "name": "@rhea-finance/crosschain-sdk",
+  "version": "0.1.0",
+  "description": "On-demand entry points for RHEA cross-chain Perps, Swap, and Lending SDKs.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    "./perps": {
+      "types": "./dist/perps.d.ts",
+      "import": "./dist/perps.js",
+      "require": "./dist/perps.cjs"
+    },
+    "./aggregation": {
+      "types": "./dist/aggregation.d.ts",
+      "import": "./dist/aggregation.js",
+      "require": "./dist/aggregation.cjs"
+    },
+    "./lending": {
+      "types": "./dist/lending.d.ts",
+      "import": "./dist/lending.js",
+      "require": "./dist/lending.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "pnpm type-check && pnpm build"
+  },
+  "keywords": [
+    "rhea-finance",
+    "cross-chain",
+    "perps",
+    "swap",
+    "lending"
+  ],
+  "author": "Rhea Finance",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhea-finance/crosschain-sdk.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@rhea-finance/cross-chain-aggregation-dex": "^2.0.3",
+    "@rhea-finance/cross-chain-sdk": "^0.1.20",
+    "@rhea-finance/crosschain-perps-sdk": "^0.1.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@10.15.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}
