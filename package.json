@@ -48,7 +48,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@rhea-finance/cross-chain-aggregation-dex": "^2.0.4",
+    "@rhea-finance/cross-chain-aggregation-dex": "^2.0.5",
     "@rhea-finance/cross-chain-sdk": "^0.1.20",
     "@rhea-finance/crosschain-perps-sdk": "^0.1.1"
   },
