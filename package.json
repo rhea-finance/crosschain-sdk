@@ -1,6 +1,6 @@
 {
   "name": "@rhea-finance/crosschain-sdk",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "On-demand entry points for RHEA cross-chain Perps, Swap, and Lending SDKs.",
   "type": "module",
   "sideEffects": false,
