@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@rhea-finance/cross-chain-aggregation-dex':
-        specifier: ^2.0.3
-        version: 2.0.3
+        specifier: ^2.0.5
+        version: 2.0.5
       '@rhea-finance/cross-chain-sdk':
         specifier: ^0.1.20
         version: 0.1.20(bufferutil@4.1.0)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@5.9.3)(utf-8-validate@6.0.6)(zod@4.4.3)
@@ -450,8 +450,8 @@ packages:
     resolution: {integrity: sha512-ZpaKGuaA+xWL2jIgZikv9xyf/PGoKwlvPAj+XQR5QZn+KRfX318zbsn/RB0Wgu/vZ+tyY47zU/fqBS1NyJK/og==}
     engines: {node: '>=16'}
 
-  '@rhea-finance/cross-chain-aggregation-dex@2.0.3':
-    resolution: {integrity: sha512-hMn30oaA2ecPYHj5TJwcUNjDRLLUSIZ6ZotNf+f9fUFPgMywU+CeHOTkVbuGpWVQtIYKCG5R5K+F703OB/PtUA==}
+  '@rhea-finance/cross-chain-aggregation-dex@2.0.5':
+    resolution: {integrity: sha512-fI8OmEhcpgcqOFelJUAowwTzLjaH/w/NotBb9NFnjDr93zDJnE33SRQaFQmbYKkOzEePLSY7fJ/Y9iX2CT/h9A==}
     engines: {node: '>=16.0.0'}
 
   '@rhea-finance/cross-chain-sdk@0.1.20':
@@ -2401,7 +2401,7 @@ snapshots:
       - encoding
       - utf-8-validate
 
-  '@rhea-finance/cross-chain-aggregation-dex@2.0.3':
+  '@rhea-finance/cross-chain-aggregation-dex@2.0.5':
     dependencies:
       zod: 4.4.3
 

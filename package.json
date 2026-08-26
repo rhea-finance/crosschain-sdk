@@ -1,6 +1,6 @@
 {
   "name": "@rhea-finance/crosschain-sdk",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "On-demand entry points for RHEA cross-chain Perps, Swap, and Lending SDKs.",
   "type": "module",
   "sideEffects": false,
@@ -48,9 +48,9 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@rhea-finance/cross-chain-aggregation-dex": "^2.0.5",
-    "@rhea-finance/cross-chain-sdk": "^0.1.20",
-    "@rhea-finance/crosschain-perps-sdk": "^0.1.1"
+    "@rhea-finance/cross-chain-aggregation-dex": "2.0.6",
+    "@rhea-finance/cross-chain-sdk": "0.1.20",
+    "@rhea-finance/crosschain-perps-sdk": "0.1.1"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
